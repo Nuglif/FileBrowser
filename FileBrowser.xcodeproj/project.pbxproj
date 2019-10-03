@@ -33,6 +33,7 @@
 		349A12361C707E86005435C0 /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A122F1C707E86005435C0 /* image@2x.png */; };
 		349A12371C707E86005435C0 /* pdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A12301C707E86005435C0 /* pdf@2x.png */; };
 		349A12381C707E86005435C0 /* zip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349A12311C707E86005435C0 /* zip@2x.png */; };
+		9769C40223463E3300DE89D9 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769C40123463E3300DE89D9 /* UIColor+Ext.swift */; };
 		E434E6BB2179857200E2BF62 /* SizeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434E6B92179857200E2BF62 /* SizeConverter.swift */; };
 		E434E6BC2179857200E2BF62 /* AllocatedSizeOfDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E434E6BA2179857200E2BF62 /* AllocatedSizeOfDirectory.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		349A122F1C707E86005435C0 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
 		349A12301C707E86005435C0 /* pdf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf@2x.png"; sourceTree = "<group>"; };
 		349A12311C707E86005435C0 /* zip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zip@2x.png"; sourceTree = "<group>"; };
+		9769C40123463E3300DE89D9 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		E434E6B92179857200E2BF62 /* SizeConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConverter.swift; sourceTree = "<group>"; };
 		E434E6BA2179857200E2BF62 /* AllocatedSizeOfDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocatedSizeOfDirectory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 				343C44601C73CC3C00D874FB /* Preview */,
 				349A122A1C707E86005435C0 /* Resources */,
 				344169591C67812400B93D28 /* Info.plist */,
+				9769C40123463E3300DE89D9 /* UIColor+Ext.swift */,
 			);
 			path = FileBrowser;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				E434E6BC2179857200E2BF62 /* AllocatedSizeOfDirectory.swift in Sources */,
 				349A12261C707317005435C0 /* FileListTableView.swift in Sources */,
 				343C44661C73CD3200D874FB /* PreviewManager.swift in Sources */,
+				9769C40223463E3300DE89D9 /* UIColor+Ext.swift in Sources */,
 				3439AB681C6F203A0058AF04 /* FileParser.swift in Sources */,
 				349A12281C707B1A005435C0 /* FBFile.swift in Sources */,
 				343C44631C73CC8100D874FB /* PreviewTransitionViewController.swift in Sources */,

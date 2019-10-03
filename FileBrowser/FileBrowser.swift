@@ -62,11 +62,7 @@ open class FileBrowser: UINavigationController {
                                                             showSize: showSize)
 
         self.init(rootViewController: fileListViewController)
-        if #available(iOS 13, *) {
-            self.view.backgroundColor = UIColor.systemBackground
-        } else {
-            self.view.backgroundColor = UIColor.white
-        }
+        self.view.backgroundColor = UIColor.fileBrowserBackground()
         self.fileList = fileListViewController
     }
 }
