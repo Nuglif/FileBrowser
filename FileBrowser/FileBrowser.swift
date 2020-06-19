@@ -37,9 +37,9 @@ open class FileBrowser: UINavigationController {
     }
     
     /// Closure to be executed when close button is tapped
-    open var willClose: (() -> ())? {
+    open var didClose: (() -> ())? {
         didSet {
-            fileList?.willClose = willClose
+            fileList?.didClose = didClose
         }
     }
 

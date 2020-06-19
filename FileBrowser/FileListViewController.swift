@@ -16,7 +16,7 @@ class FileListViewController: UIViewController {
     
     /// Data
     var didSelectFile: ((FBFile) -> ())?
-    var willClose: (() -> ())?
+    var didClose: (() -> ())?
     var files = [FBFile]()
     var initialPath: URL?
     let parser = FileParser.sharedInstance
@@ -104,7 +104,7 @@ class FileListViewController: UIViewController {
     
     @objc func dismiss(button: UIBarButtonItem = UIBarButtonItem()) {
         self.dismiss(animated: true, completion: {
-            self.willClose?()
+            self.didClose?()
         })
     }
     
